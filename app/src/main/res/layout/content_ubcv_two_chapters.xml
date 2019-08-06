@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activities.UbcvTwoChaptersActivity"
+    tools:showIn="@layout/app_bar_ubcv_two_chapters">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/chapterBigTextBg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/faith"
+                android:scaleType="centerCrop"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/gradient_bg"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:id="@+id/chapterBigText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="UBCV 102"
+                android:textColor="#ffffff"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="8dp"
+                android:textSize="30sp"
+                />
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/ubcvOneRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp">
+    </android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>

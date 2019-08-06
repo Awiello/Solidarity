@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.furiouskitten.amiel.solidarity">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_CLIPS" />
+    <uses-permission android:name="android.permission.READ_CLIPS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name=".GoogleAnalytics.AnalyticsApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/solidaritylogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/solidaritylogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".BookContents.UBCV2.UbcvTwoChapterThreee"
+            android:label="@string/title_activity_ubcv_two_chapter_threee"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".BookContents.VIDEOS.CharacteristicsGod" />
+        <activity android:name=".BookContents.VIDEOS.FormsOfPrayer" />
+        <activity android:name=".BookContents.UBCV2.NourishingFaith" />
+        <activity android:name=".BookContents.VIDEOS.RelationshipGod" />
+        <activity android:name=".BookContents.VIDEOS.GodOmnipotentceq" />
+        <activity android:name=".BookContents.VIDEOS.GodKnowsEverything" />
+        <activity android:name=".BookContents.VIDEOS.Holiness" />
+        <activity android:name=".BookContents.VIDEOS.GodImmortality" />
+        <activity android:name=".BookContents.VIDEOS.HewbrewsAct" />
+        <activity android:name=".BookContents.VIDEOS.RomanActOne" />
+        <activity android:name=".BookContents.VIDEOS.GodOmniscient" />
+        <activity android:name=".BookContents.VIDEOS.CharacteristicsJesus" />
+        <activity android:name=".BookContents.VIDEOS.TheoryGod" />
+        <activity android:name=".BookContents.VIDEOS.GodsNature" />
+        <activity android:name=".BookContents.VIDEOS.GoodSamaritan" />
+        <activity android:name=".BookContents.VIDEOS.PananagutanActivity" />
+        <activity android:name=".BookContents.VIDEOS.NoManIsAnIsland" />
+        <activity android:name=".BookContents.VIDEOS.LifelongLearningCharacters" />
+        <activity android:name=".BookContents.VIDEOS.GoodStudyHabits" />
+        <activity android:name=".BookContents.VIDEOS.NLMSystem" />
+        <activity android:name=".BookContents.VIDEOS.LibraryOfCongress" />
+        <activity android:name=".BookContents.VIDEOS.DeweyDecimal" />
+        <activity android:name=".BookContents.VIDEOS.LawsOfLearning" />
+        <activity android:name=".BookContents.VIDEOS.LearningVideo" />
+        <activity android:name=".BookContents.VIDEOS.DomainsOfLearning" />
+        <activity android:name=".BookContents.VIDEOS.HewbrewBible" />
+        <activity android:name=".BookContents.VIDEOS.GodMadeMe" />
+        <activity android:name=".BookContents.VIDEOS.UbMarchingHymn" />
+        <activity android:name=".BookContents.VIDEOS.UbHymnActivity" />
+        <activity android:name=".TestFirebaseQuiz.Activities.Done" />
+        <activity android:name=".TestFirebaseQuiz.Activities.Playing" />
+        <activity android:name=".TestFirebaseQuiz.Activities.Start" />
+        <activity android:name=".TestFirebaseQuiz.Activities.Home" />
+        <activity
+            android:name=".Activities.SplashScreenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV1QUIZ.Homeubcv1chapter1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV1QUIZ.Homeubcv1chapter2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV1QUIZ.Homeubcv1chapter3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV1QUIZ.Homeubcv1chapter4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV1QUIZ.Homeubcv1chapter5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV1QUIZ.Homeubcv1chapter6"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV1QUIZ.Homeubcv1chapter7"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV1QUIZ.Homeubcv1chapter8"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV1QUIZ.Homeubcv1chapter9"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV1QUIZ.Doneubcv1chapter1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV1QUIZ.Doneubcv1chapter2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV1QUIZ.Doneubcv1chapter3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV1QUIZ.Doneubcv1chapter4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV1QUIZ.Doneubcv1chapter5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV1QUIZ.Doneubcv1chapter6"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV1QUIZ.Doneubcv1chapter7"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV1QUIZ.Doneubcv1chapter8"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV1QUIZ.Doneubcv1chapter9"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV2QUIZ.Homeubcv2chapter1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV2QUIZ.Homeubcv2chapter2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV2QUIZ.Homeubcv2chapter10"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV2QUIZ.Homeubcv2chapter3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV2QUIZ.Homeubcv2chapter4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV2QUIZ.Homeubcv2chapter5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV2QUIZ.Homeubcv2chapter6"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV2QUIZ.Homeubcv2chapter7"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV2QUIZ.Homeubcv2chapter8"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV2QUIZ.Homeubcv2chapter9"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV2QUIZ.Homeubcv2chapter10"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV2QUIZ.Homeubcv2chapter11"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV2QUIZ.Homeubcv2chapter12"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV2QUIZ.Homeubcv2chapter13"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV2QUIZ.Homeubcv2chapter14"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV2QUIZ.Homeubcv2chapter15"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV2QUIZ.Doneubcv2chapter1"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV2QUIZ.Doneubcv2chapter2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV2QUIZ.Doneubcv2chapter3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV2QUIZ.Doneubcv2chapter4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV2QUIZ.Doneubcv2chapter5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV2QUIZ.Doneubcv2chapter6"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV2QUIZ.Doneubcv2chapter7"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV2QUIZ.Doneubcv2chapter8"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV2QUIZ.Doneubcv2chapter9"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV2QUIZ.Doneubcv2chapter11"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV2QUIZ.Doneubcv2chapter12"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV2QUIZ.Doneubcv2chapter13"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV2QUIZ.Doneubcv2chapter14"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV2QUIZ.Doneubcv2chapter15"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV2QUIZ.Doneubcv2omni"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV2QUIZ.Homeubcv2omni"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV3QUIZ.Doneubcv3chapter1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV3QUIZ.Doneubcv3chapter2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV3QUIZ.Doneubcv3chapter4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV3QUIZ.Doneubcv3chapter5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV3QUIZ.Doneubcv3chapter3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV3QUIZ.Doneubcv3chapter6"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV3QUIZ.Homeubcv3chapter1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV3QUIZ.Homeubcv3chapter2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV3QUIZ.Homeubcv3chapter3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV3QUIZ.Homeubcv3chapter4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV3QUIZ.Homeubcv3chapter5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV3QUIZ.Homeubcv3chapter6"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV4QUIZ.Homeubcv4chapter1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV4QUIZ.Homeubcv4chapter2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV4QUIZ.Homeubcv4chapter3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV4QUIZ.Homeubcv4chapter4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV4QUIZ.Doneubcv4chapter1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV4QUIZ.Doneubcv4chapter2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV4QUIZ.Doneubcv4chapter3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirebaseChapterQuizzes.UBCV4QUIZ.Doneubcv4chapter4"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ChapterQuizzes.UBCV2QUIZ.UbcvTwoChapterTenQuiz" />
+        <activity
+            android:name=".BookContents.UBCV3.UbcvThreeChapFour"
+            android:label="@string/title_activity_ubcv_three_chap_four"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookContents.UBCV2.UbcvTwoOmnipotent"
+            android:label="@string/title_activity_ubcv_two_omnipotent"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ChapterQuizzes.UBCV2QUIZ.UbcvTwoChapterNineQuizSS" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV3QUIZ.UbcvThreeChapterFourQuiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV3QUIZ.UbcvThreeChapterFourQuizSS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV1QUIZ.UbcvOneChapterOneQuiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV1QUIZ.UbcvOneChapterOneQuizSS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV1QUIZ.UbcvOneChapterTwoQuiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV1QUIZ.UbcvOneChapterTwoQuizSS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV1QUIZ.UbcvOneChapterThreeQuiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV1QUIZ.UbcvOneChapterThreeQuizSS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV1QUIZ.UbcvOneChapterFourQuiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV1QUIZ.UbcvOneChapterFourQuizSS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV1QUIZ.UbcvOneChapterFiveQuiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV1QUIZ.UbcvOneChapterFiveQuizSS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV1QUIZ.UbcvOneChapterSixQuiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV1QUIZ.UbcvOneChapterSixQuizSS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV1QUIZ.UbcvOneChapterSevenQuiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV1QUIZ.UbcvOneChapterSevenQuizSS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV1QUIZ.UbcvOneChapterEightQuiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV1QUIZ.UbcvOneChapterEightQuizSS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV2QUIZ.UbcvTwoChapterOneQuiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV2QUIZ.UbcvTwoChapterOneQuizSS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV2QUIZ.UbcvTwoChapterTwoQuiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV2QUIZ.UbcvTwoChapterTwoQuizSS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV2QUIZ.UbcvTwoChapterThreeQuiz"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ChapterQuizzes.UBCV2QUIZ.UbcvTwoChapterThreeQuizSS" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV2QUIZ.UbcvTwoChapterFourQuiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV2QUIZ.UbcvTwoChapterFourQuizSS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV2QUIZ.UbcvTwoChapterFiveQuiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV2QUIZ.UbcvTwoChapterFiveQuizSS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV2QUIZ.UbcvTwoChapterSixQuiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV2QUIZ.UbcvTwoChapterSixQuizSS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV2QUIZ.UbcvTwoChapterSevenQuiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV2QUIZ.UbcvTwoChapterSevenQuizSS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV2QUIZ.UbcvTwoChapterEightQuiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV2QUIZ.UbcvTwoChapterEightQuizSS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV2QUIZ.UbcvTwoChapterNineQuiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV2QUIZ.UbcvTwoChapterTenQuizSS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV2QUIZ.UbcvTwoChapterElevenQuiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV2QUIZ.UbcvTwoChapterElevenQuizSS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV2QUIZ.UbcvTwoChapterTwelveQuiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV2QUIZ.UbcvTwoChapterTwelveQuizSS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV2QUIZ.UbcvTwoChapterThirteenQuiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV2QUIZ.UbcvTwoChapterThirteenQuizSS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV2QUIZ.UbcvTwoChapterFourteenQuiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV2QUIZ.UbcvTwoChapterFourteenQuizSS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV2QUIZ.UbcvTwoChapterFifteenQuiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV2QUIZ.UbcvTwoChapterFifteenQuizSS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV3QUIZ.UbcvThreeChapterTwoQuiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV3QUIZ.UbcvThreeChapterTwoQuizSS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV3QUIZ.UbcvThreeChapterThreeQuiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV3QUIZ.UbcvThreeChapterThreeQuizSS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV3QUIZ.UbcvThreeChapterFiveQuiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV3QUIZ.UbcvThreeChapterFiveQuizSS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV3QUIZ.UbcvThreeChapterSixQuiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV3QUIZ.UbcvThreeChapterSixQuizSS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV4QUIZ.UbcvFourChapterTwoQuiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV4QUIZ.UbcvFourChapterTwoQuizSS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV4QUIZ.UbcvFourChapterThreeQuiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV4QUIZ.UbcvFourChapterThreeQuizSS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV4QUIZ.UbcvFourChapterFourQuiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChapterQuizzes.UBCV4QUIZ.UbcvFourChapterFourQuizSS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BookContents.UBCV1.UbcvOneChapterNine"
+            android:label="@string/title_activity_ubcv_one_chapter_nine"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookContents.UBCV1.UbcvOneChapterEight"
+            android:label="@string/title_activity_ubcv_one_chapter_eight"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookContents.UBCV1.UbcvOneChapterSeven"
+            android:label="@string/title_activity_ubcv_one_chapter_seven"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookContents.UBCV1.UbcvOneChapterSix"
+            android:label="@string/title_activity_ubcv_one_chapter_six"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookContents.UBCV1.UbcvOneChapterFive"
+            android:label="@string/title_activity_ubcv_one_chapter_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookContents.UBCV1.UbcvOneChapterFour"
+            android:label="@string/title_activity_ubcv_one_chapter_four"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookContents.UBCV1.UbcvOneChapterThree"
+            android:label="@string/title_activity_ubcv_one_chapter_three"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookContents.UBCV1.UbcvOneChapterTwo"
+            android:label="@string/title_activity_ubcv_one_chapter_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookContents.UBCV4.UbcvFourChapterFour"
+            android:label="@string/title_activity_ubcv_four_chapter_four"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookContents.UBCV4.UbcvFourChapterThree"
+            android:label="@string/title_activity_ubcv_four_chapter_three"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookContents.UBCV4.UbcvFourChapterTwo"
+            android:label="@string/title_activity_ubcv_four_chapter_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookContents.UBCV4.UbcvFourChapterOne"
+            android:label="@string/title_activity_ubcv_four_chapter_one"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookContents.UBCV3.UbcvThreeChapterSix"
+            android:label="@string/title_activity_ubcv_three_chapter_six"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookContents.UBCV3.UbcvThreeChapterFive"
+            android:label="@string/title_activity_ubcv_three_chapter_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookContents.UBCV3.UbcvThreeChapterFour"
+            android:label="@string/title_activity_ubcv_three_chapter_four"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookContents.UBCV3.UbcvThreeChapterThree"
+            android:label="@string/title_activity_ubcv_three_chapter_three"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookContents.UBCV3.UbcvThreeChapterTwo"
+            android:label="@string/title_activity_ubcv_three_chapter_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookContents.UBCV3.UbcvThreeChapterOne"
+            android:label="@string/title_activity_ubcv_three_chapter_one"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookContents.UBCV2.UbcvTwoChapterFifteen"
+            android:label="@string/title_activity_ubcv_two_chapter_fifteen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookContents.UBCV2.UbcvTwoChapterFourteen"
+            android:label="@string/title_activity_ubcv_two_chapter_fourteen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookContents.UBCV2.UbcvTwoChapterThirteen"
+            android:label="@string/title_activity_ubcv_two_chapter_thirteen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookContents.UBCV2.UbcvTwoChapterTwelve"
+            android:label="@string/title_activity_ubcv_two_chapter_twelve"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookContents.UBCV2.UbcvTwoChapterEleven"
+            android:label="@string/title_activity_ubcv_two_chapter_eleven"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookContents.UBCV2.UbcvTwoChapterTen"
+            android:label="@string/title_activity_ubcv_two_chapter_ten"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookContents.UBCV2.UbcvTwoChapterNine"
+            android:label="@string/title_activity_ubcv_two_chapter_nine"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookContents.UBCV2.UbcvTwoChapterEight"
+            android:label="@string/title_activity_ubcv_two_chapter_eight"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookContents.UBCV2.UbcvTwoChapterSeven"
+            android:label="@string/title_activity_ubcv_two_chapter_seven"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookContents.UBCV2.UbcvTwoChapterSix"
+            android:label="@string/title_activity_ubcv_two_chapter_six"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookContents.UBCV2.UbcvTwoChapterFive"
+            android:label="@string/title_activity_ubcv_two_chapter_five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookContents.UBCV2.UbcvTwoChapterThree"
+            android:label="@string/title_activity_ubcv_two_chapter_three"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookContents.UBCV2.UbcvTwoChapterFour"
+            android:label="@string/title_activity_ubcv_two_chapter_four"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookContents.UBCV2.UbcvTwoChapterTwo"
+            android:label="@string/title_activity_ubcv_two_chapter_two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookContents.UBCV2.UbcvTwoChapterOne"
+            android:label="@string/title_activity_ubcv_two_chapter_one"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.UbcvFourChaptersActivity"
+            android:label="@string/title_activity_ubcv_four_chapters"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.UbcvThreeChaptersActivity"
+            android:label="@string/title_activity_ubcv_three_chapters"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.UbcvTwoChaptersActivity"
+            android:label="@string/title_activity_ubcv_two_chapters"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.BookDetailActivityFour"
+            android:label="@string/title_activity_book_detail_four"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.BookDetailActivityThree"
+            android:label="@string/title_activity_book_detail_three"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.BookDetailActivityTwo"
+            android:label="@string/title_activity_book_detail_two"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.UbcvOneChaptersActivity"
+            android:label="@string/title_activity_ubcv_one_chapters"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.BookDetailActivity"
+            android:label="@string/title_activity_book_detail"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.BookHomeActivity"
+            android:label="@string/title_activity_book_home"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".QuizComponents.QuizActivityUbcvOneChapterOne"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizComponents.StartingScreenActivityUbcvOneChapterOne"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DictionaryMainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".BookContents.UBCV1.UbcvOne_PageOne"
+            android:label="@string/title_activity_ubcv_one__page_one"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.UbcvOneActivity"
+            android:label="@string/title_activity_ubcv_one"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.MainMenuActivity"
+            android:label="@string/title_activity_main2"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.BookMainMenu"
+            android:label="@string/title_activity_book_main_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.LandingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Authentication.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".SettingsHolder"
+            android:label="@string/action_settings">
+            <intent-filter>
+                <action android:name="android.intent.action.SETTINGS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Meaning"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light.Dialog">
+            <intent-filter>
+                <action android:name="android.intent.action.MEANING" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".Receiver.ClipboardMonitorStarter">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".Receiver.ClipboardMonitor" />
+
+        <activity
+            android:name=".QuizComponents.StartingScreenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizComponents.QuizActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.IntroActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.MovieDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.HomeActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "22497771035",
+    "firebase_url": "https://solidarity-f75ce.firebaseio.com",
+    "project_id": "solidarity-f75ce",
+    "storage_bucket": "solidarity-f75ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22497771035:android:d9052bd0e50dc8f3",
+        "android_client_info": {
+          "package_name": "com.furiouskitten.amiel.solidarity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22497771035-agd09qfi27uhtfqcqp11ci6jm79c3lsd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.furiouskitten.amiel.solidarity",
+            "certificate_hash": "4361eceb239904e0efa76aa4fdff0069f30d02f6"
+          }
+        },
+        {
+          "client_id": "22497771035-lrf3ldi542et37qba3enllitmf7lampl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUNpTqkjE_JLuMJnV41FN3LvtFDP0MnjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22497771035-lrf3ldi542et37qba3enllitmf7lampl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22497771035:android:a04419fd6d79b6cd",
+        "android_client_info": {
+          "package_name": "com.furiouskitten.amiel.solidarityforteachers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22497771035-fvmemm93h0ollbji9f17piu4865764le.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.furiouskitten.amiel.solidarityforteachers",
+            "certificate_hash": "4361eceb239904e0efa76aa4fdff0069f30d02f6"
+          }
+        },
+        {
+          "client_id": "22497771035-lrf3ldi542et37qba3enllitmf7lampl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUNpTqkjE_JLuMJnV41FN3LvtFDP0MnjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22497771035-lrf3ldi542et37qba3enllitmf7lampl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".TestFirebaseQuiz.Activities.Start">
+
+
+        <TextView
+            android:id="@+id/tetetsa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="Just Press the button whenever you're Ready!"
+            android:textColor="#ffffff"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="30sp"
+            android:gravity="center"
+            />
+
+
+        <Button
+            android:id="@+id/btnPlay"
+            android:layout_margin="8dp"
+            android:background="@drawable/round"
+            android:text="Play!"
+            android:layout_below="@+id/tetetsa"
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" />
+
+
+</RelativeLayout>

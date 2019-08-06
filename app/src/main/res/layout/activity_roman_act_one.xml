@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookContents.VIDEOS.RomanActOne">
+
+    <TextView
+        android:id="@+id/TitleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ChapterText"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/rosarivo"
+        android:text="Roman 1:20"
+        android:textAlignment="center"
+        android:textIsSelectable="true"
+        android:textSize="19sp"
+        android:letterSpacing="0.1" />
+
+    <fragment
+        android:id="@+id/youtube_fragment"
+        android:name="com.google.android.youtube.player.YouTubePlayerSupportFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:layout_below="@+id/TitleText"/>
+
+</RelativeLayout>

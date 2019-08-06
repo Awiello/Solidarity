@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".TestFirebaseQuiz.Fragments.CategoryFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:text="UBCV Chapter Quiz"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/textbut"
+        android:background="@drawable/round"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="40dp"
+        android:textColor="#ffffff"
+        android:text="Go to Chapter Quiz!"
+        android:layout_marginRight="26dp"
+        android:layout_marginLeft="26dp"
+        />
+</FrameLayout>
